@@ -22,7 +22,7 @@ protected:
     GuitarShop* _guitarshop2;
 };
 
-// Concrete implementation 1
+// Concrete implementation1
 class Produce : public GuitarShop
 {
 public:  
@@ -32,7 +32,7 @@ public:
     }
 };
 
-// Concrete implementation 2
+// Concrete implementation2
 class Assmble : public GuitarShop
 {
 public:  
@@ -42,7 +42,7 @@ public:
     }
 };
 
-// Refine Abstraction 1
+// Refine Abstraction1
 class Electric : public Guitar
 {
 public:  
