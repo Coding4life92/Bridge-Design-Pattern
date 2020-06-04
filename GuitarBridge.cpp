@@ -33,7 +33,7 @@ public:
 };
 
 // Concrete implementation2
-class Assmble : public GuitarShop
+class Assemble : public GuitarShop
 {
 public:  
     virtual void build()
@@ -74,10 +74,10 @@ public:
 
 int main()
 {
-    Guitar* guitar1 = new Electric(new Produce(), new Assmble());
+    Guitar* guitar1 = new Electric(new Produce(), new Assemble());
     guitar1->manufacture();
 
-    Guitar* guitar2 = new Acoustic(new Produce(), new Assmble());
+    Guitar* guitar2 = new Acoustic(new Produce(), new Assemble());
     guitar2->manufacture();
 
     return 0;
