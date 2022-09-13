@@ -51,7 +51,7 @@ public:
 
     virtual void manufacture()
     {
-        cout << "Eeletric ";
+        cout << "Electric ";
         _guitarshop1->build();
         _guitarshop2->build();
     }
